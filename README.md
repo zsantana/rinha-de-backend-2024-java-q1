@@ -48,7 +48,7 @@ Disponível na view: (v_checa_saldo_cliente)
 - Conexões do Postgres
   ![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/50751dd9-9b75-4f78-8d05-6f75d90838bf)
 
-- Start up da Aplicação
+- Startup da Aplicação
   ![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/8c66fcb7-0330-441e-a159-acf5b413f195)
 
 - Resultado Final
