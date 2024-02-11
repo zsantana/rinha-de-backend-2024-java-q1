@@ -38,6 +38,23 @@ Disponível na view: (v_checa_saldo_cliente)
 
 ---
 
+
+## Extra
+
+- Performance da JVM
+![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/a56622a2-139f-4789-be31-5aa5275a4b05)
+
+
+- Conexões do Postgres
+  ![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/50751dd9-9b75-4f78-8d05-6f75d90838bf)
+
+- Startup da Aplicação
+  ![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/8c66fcb7-0330-441e-a159-acf5b413f195)
+
+- Resultado Final
+  ![image](https://github.com/zsantana/rinha-de-backend-2024-java-q1/assets/17239827/a5852706-a3cd-4142-9cd7-34dbd6b18e08)
+
+
 ## Reinaldo Santana
 
 Submissão realizada com os seguintes componentes:
