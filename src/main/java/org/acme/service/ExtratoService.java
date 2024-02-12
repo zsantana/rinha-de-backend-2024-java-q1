@@ -30,7 +30,6 @@ public class ExtratoService {
 
     @Inject
     SaldoClienteRepository saldoClienteRepository;
-
     public ExtratoDTO obterExtrato(final Long id) {
 
         var cliente = clienteRepository.findById(id);
@@ -56,7 +55,6 @@ public class ExtratoService {
                                         .collect(Collectors.toList());
 
         return new ExtratoDTO (saldo , ultimasTransacoesDTO);
-
 
     }
 

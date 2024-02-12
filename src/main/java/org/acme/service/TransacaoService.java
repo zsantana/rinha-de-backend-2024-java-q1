@@ -8,7 +8,6 @@ import org.acme.dto.TransacaoRequestDTO;
 import org.acme.entity.Cliente;
 import org.acme.entity.SaldoCliente;
 import org.acme.entity.Transacao;
-import org.jboss.logging.Logger;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -20,7 +19,7 @@ import jakarta.ws.rs.WebApplicationException;
 @RegisterForReflection
 public class TransacaoService {
 
-    private static final Logger logger = Logger.getLogger(TransacaoService.class);
+    // private static final Logger logger = Logger.getLogger(TransacaoService.class);
 
     @Transactional
     public LimiteSaldoDTO processarTransacao(Long id, TransacaoRequestDTO dto) {
@@ -49,9 +48,9 @@ public class TransacaoService {
             int novoSaldo = saldoCliente.valor - valor;
             
             if ((novoSaldo + saldoCliente.cliente.limite) < 0) {
-                logger.error("### Saldo negativo para id: " + transacao.cliente.id );
-                logger.error("### Limite: " + saldoCliente.cliente.limite);
-                logger.error("### Valor da transacao: " +  valor);
+                // logger.error("### Saldo negativo para id: " + transacao.cliente.id );
+                // logger.error("### Limite: " + saldoCliente.cliente.limite);
+                // logger.error("### Valor da transacao: " +  valor);
                 throw new WebApplicationException("Transação não permitida. Saldo negativo excede limite.", 422);
             }
             
